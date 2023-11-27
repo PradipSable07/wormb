@@ -1,25 +1,23 @@
 import React from "react";
 import Sidebar from "./components/Sidebar";
-import { Outlet } from "react-router-dom";
-import Admin from "./Admin";
-import Roles from "./Roles";
+import { Outlet, useParams } from "react-router-dom";
+
 import SearchBox from "./components/SearchBox";
-import ReactangleTop from "./components/ReactangleTop";
+import { toast } from "react-toastify";
 
 const HomePage = () => {
-  return (
-    <main className="bg-[#FFF] w-screen  h-screen ">
-      <Sidebar />
-      <ReactangleTop Page="Admin Management" />
-      <SearchBox />
+	toast.success("Success Notification !", {
+		position: toast.POSITION.TOP_RIGHT,
+	});
 
-      <div className=" flex flex-col w-[80vw] h-full flex-wrap  items-center justify-center  ">
-        <Outlet />
-        <Admin />
-        <Roles />
-      </div>
-    </main>
-  );
+	return (
+		<section className='bg-[#FFF] w-screen  h-screen  flex overflow-hidden'>
+			<Sidebar />
+			<div className=' flex  w-[80vw] h-full flex-wrap  items-center justify-center  grow'>
+				<Outlet />
+			</div>
+		</section>
+	);
 };
 
 export default HomePage;
