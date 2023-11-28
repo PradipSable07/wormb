@@ -14,24 +14,15 @@ const Roles = () => {
 			<div className='  border  rounded-t-lg mt-8 mx-auto w-[80vw]'>
 				<div className=' p-4 px-7 flex justify-around  border-b border-[#0a2f557d]    '>
 					<p className='font-medium text-sm text-black w-1/3 text-center flex gap-4  justify-center items-center'>
-						<img
-							src='../public/images/group-1000003529.svg'
-							alt='adminUpDown'
-						/>
+						<img src='/images/group-1000003529.svg' alt='adminUpDown' />
 						Full Name{" "}
 					</p>
 					<p className='font-medium text-sm text-black w-1/3 text-center flex gap-4  justify-center items-center'>
-						<img
-							src='../public/images/group-1000003529.svg'
-							alt='adminUpDown'
-						/>
+						<img src='/images/group-1000003529.svg' alt='adminUpDown' />
 						Email
 					</p>
 					<p className='font-medium text-sm text-black w-1/3 text-center flex gap-4  justify-center items-center'>
-						<img
-							src='../public/images/group-1000003529.svg'
-							alt='adminUpDown'
-						/>
+						<img src='/images/group-1000003529.svg' alt='adminUpDown' />
 						Actions
 					</p>
 				</div>
@@ -56,10 +47,7 @@ const Roles = () => {
 										Edit
 									</button>
 									<button className='text-red-400 border-none bg-white btn btn-sm'>
-										<img
-											src='../../public/images/DeleteSvg.svg'
-											alt='Delete Icon'
-										/>
+										<img src='/images/DeleteSvg.svg' alt='Delete Icon' />
 									</button>
 								</div>
 							</div>

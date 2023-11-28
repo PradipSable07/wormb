@@ -13,45 +13,27 @@ const Admin = () => {
 			<div className='   border  rounded-t-lg mt-8  '>
 				<div className=' p-4 px-7 flex justify-around  border-b border-[#0a2f557d]   '>
 					<p className='font-medium text-sm text-black w-[12%]  flex gap-4'>
-						<img
-							src='../public/images/group-1000003529.svg'
-							alt='adminUpDown'
-						/>
+						<img src='/images/group-1000003529.svg' alt='adminUpDown' />
 						Full Name{" "}
 					</p>
 					<p className='font-medium text-sm text-black w-[16%] flex gap-4'>
-						<img
-							src='../public/images/group-1000003529.svg'
-							alt='adminUpDown'
-						/>
+						<img src='/images/group-1000003529.svg' alt='adminUpDown' />
 						Email
 					</p>
 					<p className='font-medium text-sm text-black w-[12%] flex gap-4'>
-						<img
-							src='../public/images/group-1000003529.svg'
-							alt='adminUpDown'
-						/>
+						<img src='/images/group-1000003529.svg' alt='adminUpDown' />
 						Contact No
 					</p>
 					<p className='font-medium text-sm text-black w-[12%] flex gap-4 text-center '>
-						<img
-							src='../public/images/group-1000003529.svg'
-							alt='adminUpDown'
-						/>
+						<img src='/images/group-1000003529.svg' alt='adminUpDown' />
 						Role
 					</p>
 					<p className='font-medium text-sm text-black w-[12%] flex gap-4'>
-						<img
-							src='../public/images/group-1000003529.svg'
-							alt='adminUpDown'
-						/>
+						<img src='/images/group-1000003529.svg' alt='adminUpDown' />
 						Status
 					</p>
 					<p className='font-medium text-sm text-black w-[16%] flex gap-4'>
-						<img
-							src='../public/images/group-1000003529.svg'
-							alt='adminUpDown'
-						/>
+						<img src='/images/group-1000003529.svg' alt='adminUpDown' />
 						Action
 					</p>
 				</div>

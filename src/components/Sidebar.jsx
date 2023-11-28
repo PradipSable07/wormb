@@ -1,7 +1,7 @@
 import React from "react";
 import { sidebarList } from "../data";
 import { Link } from "react-router-dom";
-import profileIcon from "../../public/images/sidebar-icon.svg";
+import profileIcon from "/images/sidebar-icon.svg";
 const Sidebar = () => {
 	return (
 		<div className='sidebar  w-[16%] h-screen flex justify-center items-center flex-col bg-[#0A3055] '>

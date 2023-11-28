@@ -8,7 +8,7 @@ const TableRow = (props) => {
 				key={id}
 				className='tableRow flex items-center justify-around rounded-t-lg py-4 px-7 w-[1200px] pl-7 border-b'>
 				<div className=' flex items-center gap-4 w-[12%] '>
-					<img className='rounded-full  border  h-4' src={`${icon}`} alt='' />
+					<img className='rounded-full  border w-8 ' src={`${icon}`} alt='' />
 					<p className=' font-medium text-sm text-black'>{full_name}</p>
 				</div>
 				<div className='gap-4 flex w-[16%]'>
@@ -30,7 +30,7 @@ const TableRow = (props) => {
 						Edit
 					</button>
 					<button className=''>
-						<img src='../../public/images/DeleteSvg.svg' alt='' />
+						<img src='/images/DeleteSvg.svg' alt='' />
 					</button>
 				</div>
 			</div>

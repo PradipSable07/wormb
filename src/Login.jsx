@@ -15,13 +15,15 @@ const Login = () => {
 
 	const handleLogin = () => {
 		if (credentials.username === email && credentials.password === password) {
-			setAuthSuccess();
 			toast.success("Success Notification !", {
 				position: toast.POSITION.TOP_RIGHT,
 			});
+			setAuthSuccess();
 			navigate("/home/admin");
 		} else {
-			toast.error("Invalid credentials, please try again!");
+			toast.error("Invalid credentials, please try again!", {
+				position: toast.POSITION.TOP_RIGHT,
+			});
 		}
 	};
 	const setAuthSuccess = () => {
@@ -65,7 +67,7 @@ const Login = () => {
 				<div className='flex justify-center -mt-[7.5rem]  items-center flex-col gap-5 '>
 					<img
 						className=' w-30 h-30 '
-						src='../public/images/group-1261154288-main-logo.png'
+						src='/images/group-1261154288-main-logo.png'
 						alt='main-logo'
 					/>
 					<h2 className=' text-xl text-[#041424] drop-shadow-[0px_4px_4px_rgba(0,0,0,0.25)] font-bold leading-[130%] tracking-wide'>
@@ -113,11 +115,11 @@ const Login = () => {
 								onChange={(e) => setPassword(e.target.value)}
 							/>
 							<div class='absolute inset-y-0 left-0 pl-3  bg-[#F8FAFA] rounded-lg border-l border-t border-b flex items-center pointer-events-none'>
-								<img src='../public/images/key.svg' alt='password icon' />
+								<img src='/images/key.svg' alt='password icon' />
 							</div>
 							<div class='absolute inset-y-0 right-0 pr-3  bg-[#F8FAFA] flex items-center pointer-events-none rounded-lg border-r border-t border-b'>
 								<img
-									src='../public/images/vuesax-linear-eye-slash.svg'
+									src='/images/vuesax-linear-eye-slash.svg'
 									alt='password icon'
 								/>
 							</div>
@@ -135,7 +137,7 @@ const Login = () => {
 			</div>
 			<div className=' w-full h-screen'>
 				<img
-					src='../public/images/untitled-12012-backround-login-img.png'
+					src='/images/untitled-12012-backround-login-img.png'
 					className='w-full h-full object-fit'
 					alt='bg-img'
 				/>

@@ -6,6 +6,9 @@ export default {
 			fontFamily: {
 				lato: ["Lato", "sans-serif"],
 			},
+			backgroundImage: {
+				"Admin-Img": "url(/images/admin-img.png)",
+			},
 		},
 	},
 	plugins: [require("daisyui")],

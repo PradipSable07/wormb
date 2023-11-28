@@ -2,7 +2,7 @@ import React from "react";
 
 const ReactangleTop = ({ PageTitle }) => {
 	return (
-		<div className='card w-[70dvw] h-[10rem]  m-auto  bg-slate-200 flex bg-[url(./public/images/admin-img.png)] bg-cover mt-10 '>
+		<div className='card w-[70dvw] h-[10rem] bg-Admin-Img  m-auto  bg-slate-200 flex  bg-cover mt-10 '>
 			<div className='bg-gradient-to-r from-white to-red h-full w-full p-4'>
 				<h2 className=' text-4xl text-[#0A3055] leading-7 font-bold '>
 					{PageTitle} Management
